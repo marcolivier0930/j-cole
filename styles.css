@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* fonts
+font-family: 'Concert One', cursive;
+font-family: 'Barlow Semi Condensed', sans-serif;
+*/
+/* header , navigation styles*/
+.navbar {
+  position: absolute;
+  padding: 7% 15%;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-size: 60px;
+  color: white;
+}
+#header-title {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  font-size: 3rem;
+  font-family: 'Concert One', cursive;
+}
+
+/*carousel*/
+
+#carousel {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+/* text containers*/
+.text-cont {
+  background-color: white;
+  height: 160px;
+  width: 250px;
+  border-radius: 5px;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  position: absolute;
+  top: 65%;
+  left: 70%;
+  padding: 5px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-align: center;
+}
+
+.text-cont-2 {
+  background-color: white;
+  height: 200px;
+  width: 250px;
+  border-radius: 5px;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  position: absolute;
+  top: 65%;
+  left: 70%;
+  padding: 5px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-align: center;
+}
+
+.text-cont-3 {
+  background-color: white;
+  height: 230px;
+  width: 250px;
+  border-radius: 5px;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  position: absolute;
+  top: 65%;
+  left: 70%;
+  padding: 5px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-align: center;
+}
+/*play music*/
+.player{
+  font-family: 'Concert One', cursive;
+}
+#play-space{
+  position: absolute;
+  top: 75%;
+  padding: 5%;
+  margin-left: 5%;
+  color: white;
+}
+
+/* media quesries*/
+@media (max-width: 1028px){
+  .text-cont,.text-cont-2,.text-cont-3{
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    top: 50%;
+    margin-top: 115px;
+  }
+  .play-space{
+    text-align: center;
+  }
+}
