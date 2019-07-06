@@ -20,7 +20,6 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 }
 #header-title {
   text-align: center;
-  color: white;
   position: absolute;
   top: 90px;
   left: 50%;
@@ -103,10 +102,31 @@ font-family: 'Barlow Semi Condensed', sans-serif;
     position: absolute;
     left: 50%;
     margin-left: -125px;
-    top: 50%;
+    top: 30%;
     margin-top: 115px;
   }
-  .play-space{
-    text-align: center;
+  #play-space{
+    position: absolute;
+    top: 20%;
+    left: 2%;
   }
+  .header-play-space{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1280px){
+  .text-cont,.text-cont-2,.text-cont-3{
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    top: 20%;
+    margin-top: 115px;
+  }
+}
+/* buttons*/
+#play-youtube{
+  margin-top: 5px;
+  color: white;
+  text-decoration: none;
 }
