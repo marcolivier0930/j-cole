@@ -90,7 +90,7 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 }
 #play-space{
   position: absolute;
-  top: 75%;
+  top: 50%;
   padding: 5%;
   margin-left: 5%;
   color: white;
@@ -107,11 +107,18 @@ font-family: 'Barlow Semi Condensed', sans-serif;
   }
   #play-space{
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 2%;
   }
   .header-play-space{
     font-size: 16px;
+  }
+}
+@media (max-width: 900px){
+  .header-play-space{
+    color: black;
+    font-size: 26px;
+    font-weight: bolder;
   }
 }
 
