@@ -116,9 +116,23 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 }
 @media (max-width: 900px){
   .header-play-space{
-    color: black;
+    color: white;
     font-size: 26px;
     font-weight: bolder;
+  }
+  .text-cont{
+    visibility: hidden;
+  }
+  .text-cont-2{
+    visibility: hidden;
+  }
+  .text-cont-3{
+    visibility: hidden;
+  }
+  #play-space{
+    position: absolute;
+    top: 15%;
+    left: 35%;
   }
 }
 
