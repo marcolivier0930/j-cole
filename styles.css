@@ -151,3 +151,20 @@ font-family: 'Barlow Semi Condensed', sans-serif;
   color: white;
   text-decoration: none;
 }
+
+/* video section*/
+#video-container{
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 100%;
+}
+#dreamville{
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 10px;
+  color: black;
+  padding-top: 32px;
+  font-family: 'Pacifico', cursive;
+  font-weight: 500;
+}
